@@ -68,9 +68,10 @@ Para evitar que vuelva a pasar (por ejemplo, si alguien lo descargó de un corre
 
 <img width="573" height="53" alt="image" src="https://github.com/user-attachments/assets/a21283b5-d820-4f8c-b6e5-af3a6c45d25d" />
 
-Sombrero blanco → El “bueno”
-Sombrero gris → Está en el medio
-Sombrero negro → El “malo”
+Sombrero blanco → El “bueno” lo contratan para averiguar fallas en la seguridad
+Sombrero gris → Está en el medio, se dedica por curiosidad a ver en que sistemas puede entrar
+Sombrero negro → El “malo”, se dedica a entrar en este tipo de sistemas unicamente para conseguir algun beneficio propio
+cracker → 
 
 <img width="768" height="420" alt="image" src="https://github.com/user-attachments/assets/7d3c648e-00fe-4c54-878a-f1ba821ceda1" />
 
@@ -97,6 +98,18 @@ Convenio de BudapestUn acuerdo entre países para perseguir cibercriminales y co
 
 
 <img width="552" height="283" alt="image" src="https://github.com/user-attachments/assets/ddeaffd5-4d00-4995-9e3d-ddcb03abd652" />
+
+el paso a paso es el siguiente:
+primero tenemos que subir el archivo original a la nube 
+
+despues abrimos la terminal o consola de comando donde crearemos una carpeta: mkdir (mi proyecto) o el nombre que queramos 
+
+luego de eso tenemos que iniciar el repositorio local git init
+
+Entra a la carpeta de tu proyecto:
+cd ruta/de/tu/carpeta.
+Ejecuta el comando de inicio: git init.
+Revisa que todo esté bien con: git status
 
 
 
