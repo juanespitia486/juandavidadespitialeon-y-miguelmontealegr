@@ -13,7 +13,8 @@ La ciberseguridad es el conjunto de medidas y prácticas que se usan para proteg
  Autenticación**: Verificar que la persona o el dispositivo es quien dice ser.
  
  No repudio**: Que nadie pueda negar que realizó una acción.
- <img width="100" height="200" alt="image" src="https://github.com/user-attachments/assets/229bab4e-885f-4f50-9ab7-14999d425213" />
+ 
+ <img width="367" height="542" alt="image" src="https://github.com/user-attachments/assets/229bab4e-885f-4f50-9ab7-14999d425213" />
  
 
  
