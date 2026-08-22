@@ -144,8 +144,10 @@ tenemos que poner que poner:ping 8.8.8.8
 <img width="276" height="33" alt="image" src="https://github.com/user-attachments/assets/d8443df5-a41a-435c-9309-0756b8667082" />
 <div></div>
 comparar los codigos ip del otro computador 
+<div></div>
 
 <img width="294" height="44" alt="image" src="https://github.com/user-attachments/assets/c7a1c950-3066-4dc7-834a-e9067db23656" />
+
 <div></div>
 
 hay una variedad de codigos pero el principal es tasklist
@@ -156,15 +158,75 @@ hay una variedad de codigos pero el principal es tasklist
 
 <div></div>
 
+
 el codigo principal para el almacenamiento de disco es: wmic logicaldisk get caption, freespace, size
+y para la ram es:systeminfo | findstr /C:"Total Physical Memory" /C:"Available Physical Memory"
 
 <div></div>
 
-y para la ram es:systeminfo | findstr /C:"Total Physical Memory" /C:"Available Physical Memory"
+<img width="294" height="58" alt="image" src="https://github.com/user-attachments/assets/b9dcff04-de7d-4bc9-abfe-f96dc1384819" />
+una de las funciones o de los mejores codigos es:dism /online /export-driver /destination:"C:\RutaDeDestino"
+
+<img width="700" height="452" alt="image" src="https://github.com/user-attachments/assets/2052b986-7f08-47b3-a0da-3c5a3fd56cca" />
+<img width="700" height="428" alt="image" src="https://github.com/user-attachments/assets/2c08d508-99ed-4b63-bcce-c15fe4832b5a" />
+
+RT 1:TecnologíaInformación que debe cifrarseia y control del espacio aéreoDatos de trayectoria de aeronaves, telemetría en tiempo real, identificadores de vuelo, datos de radar, información de control de tráfico aéreo y cualquier dato personal de tripulación/pasajeros.NanosatélitesDatos de telemetría, imágenes satelitales (especialmente de seguridad o militares), comandos de control, datos de posición y cualquier payload sensible.IoT en logísticaUbicación GPS de mercancías, datos de sensores (temperatura, humedad, apertura de contenedores), información de inventarios, datos de clientes y rutas de transporte.Interacción humano-máquinaCredenciales de acceso, biometría, comandos de control, datos de sesión, historial de interacciones y cualquier dato personal del operador.
+
+<img width="568" height="484" alt="image" src="https://github.com/user-attachments/assets/3ade0528-f259-486c-8a73-95f9be261715" />
 
 
+RT 2:IA y control del espacio aéreoTLS 1.3 + mTLS, IPsec, protocolos aeronáuticos seguros (CPDLC, ADS-B con cifrado), autenticación fuerte (PKI), Zero Trust.NanosatélitesCCSDS (Consultative Committee for Space Data Systems) con cifrado, Space Data Link Security (SDLS), TLS o DTLS para enlaces, autenticación de comandos con firmas digitales.IoT en logísticaMQTT sobre TLS, CoAP + DTLS, HTTPS, OPC UA Security, autenticación por certificados o tokens (OAuth 2.0 / JWT), segmentación de red.Interacción humano-máquinaOAuth 2.0 / OpenID Connect, SAML, MFA (multi-factor), FIDO2 / WebAuthn, TLS 1.3, gestión de sesiones seguras.
+
+<img width="568" height="484" alt="image" src="https://github.com/user-attachments/assets/ed427c49-e8e4-42d6-8a2d-e29d4a02f161" />
 
 
+RT 3:
 
+
+1. ¿Qué información de la que manejan esas tecnologías debe estar cifrada?
+Toda información sensible, personal, crítica o confidencial debe cifrarse, tanto en tránsito como en reposo. Específicamente:
+
+Tecnología	Información que debe cifrarse
+IA y control del espacio aéreo	Datos de trayectoria de aeronaves, telemetría en tiempo real, identificadores de vuelo, datos de radar, información de control de tráfico aéreo y cualquier dato personal de tripulación/pasajeros.
+Nanosatélites	Datos de telemetría, imágenes satelitales (especialmente de seguridad o militares), comandos de control, datos de posición y cualquier payload sensible.
+IoT en logística	Ubicación GPS de mercancías, datos de sensores (temperatura, humedad, apertura de contenedores), información de inventarios, datos de clientes y rutas de transporte.
+Interacción humano-máquina	Credenciales de acceso, biometría, comandos de control, datos de sesión, historial de interacciones y cualquier dato personal del operador.
+Regla general: cifrar siempre datos personales (GDPR/LGPD), datos de infraestructura crítica y cualquier información cuya divulgación pueda afectar seguridad o privacidad.
+
+2. ¿Cómo sería el tema de manejo de contraseñas, usuarios y autenticación en la interacción humano-máquina?
+En sistemas de interacción humano-máquina (HMI) se recomienda un enfoque de Zero Trust + autenticación fuerte:
+
+Usuarios: cuentas individuales (nunca compartidas), con roles y permisos mínimos necesarios (principio de menor privilegio).
+Contraseñas:
+Longitud mínima 12-16 caracteres, complejidad alta.
+Prohibir reutilización.
+Almacenamiento solo como hash (Argon2, bcrypt o scrypt).
+Idealmente eliminar contraseñas y usar autenticación sin contraseña.
+Autenticación preferida:
+MFA obligatorio (algo que sabes + algo que tienes + algo que eres).
+Biometría (huella, facial, iris) + dispositivo de confianza.
+FIDO2 / WebAuthn o certificados digitales.
+Tokens de corta duración (JWT con expiración corta) + refresh tokens rotativos.
+Gestión de sesiones: cierre automático por inactividad, detección de anomalías (comportamiento inusual del operador), registro de auditoría completo.
+Adicional: cifrado de extremo a extremo de la sesión HMI y aislamiento de la interfaz de control de las redes de datos.
+<img width="568" height="484" alt="image" src="https://github.com/user-attachments/assets/527c331c-c77a-4158-9742-70126bec8db6" />
+
+
+RT 4:Sí, blockchain puede ser muy útil en varios de estos escenarios:
+
+IoT en logística: trazabilidad inmutable de la cadena de suministro, prueba de temperatura/ubicación de mercancía, contratos inteligentes para pagos automáticos.
+Nanosatélites: registro inmutable de telemetría y comandos (auditoría), gestión de identidades de satélites.
+IA y control aéreo / HMI: registro de decisiones críticas de IA y acciones de operadores (no repudiación), identidades descentralizadas.
+
+RT 5:Aspecto,Recomendación
+Frecuencia,"Datos críticos (telemetría, comandos, logs de control): backup continuo o cada pocos minutos. Datos menos críticos: diario."
+Ubicaciones,3 copias mínimo → 2 en medios diferentes → 1 fuera de sitio (offsite / nube) → 1 offline / air-gapped.
+Cifrado,Todas las copias cifradas (AES-256 o superior) con gestión de claves separada (HSM o KMS).
+Pruebas,Restauración periódica automática + pruebas manuales (al menos trimestral). Objetivo: cero errores de restauración.
+Particularidades por tecnología,
+Nanosatélites,Backup de telemetría en estaciones terrenas + nube; comandos críticos con firma digital y versionado.
+IoT logística,Edge computing con buffer local + sincronización segura a la nube; versionado de firmwares.
+IA / control aéreo,Snapshots de modelos de IA + datos de entrenamiento + logs de decisiones; redundancia geográfica.
+HMI,"Backup de configuraciones de usuario, perfiles y logs de auditoría; posibilidad de rollback rápido."
 
 
