@@ -132,3 +132,39 @@ codigo: "git clone https://github.com/usuario1/proyecto-compartido.git"
 Accede a la carpeta clonada para empezar a trabajar con los archivos actualizados:
 codigo:"cd proyecto-compartido"
 
+<img width="585" height="33" alt="image" src="https://github.com/user-attachments/assets/abcba221-f4ab-4c97-a80f-35a1cf96cc36" />
+<div></div>
+
+
+<img width="298" height="52" alt="image" src="https://github.com/user-attachments/assets/d5698592-0617-4034-887b-06e550c7efe7" />
+
+tenemos que poner que poner:ping 8.8.8.8
+
+
+<img width="276" height="33" alt="image" src="https://github.com/user-attachments/assets/d8443df5-a41a-435c-9309-0756b8667082" />
+<div></div>
+comparar los codigos ip del otro computador 
+
+<img width="294" height="44" alt="image" src="https://github.com/user-attachments/assets/c7a1c950-3066-4dc7-834a-e9067db23656" />
+<div></div>
+
+hay una variedad de codigos pero el principal es tasklist
+
+<div></div>
+
+<img width="312" height="71" alt="image" src="https://github.com/user-attachments/assets/98162e34-2937-456b-b20f-c5565b3a1ff1" />
+
+<div></div>
+
+el codigo principal para el almacenamiento de disco es: wmic logicaldisk get caption, freespace, size
+
+<div></div>
+
+y para la ram es:systeminfo | findstr /C:"Total Physical Memory" /C:"Available Physical Memory"
+
+
+
+
+
+
+
