@@ -72,6 +72,35 @@ Sombrero blanco → El “bueno”
 Sombrero gris → Está en el medio
 Sombrero negro → El “malo”
 
-
 <img width="768" height="420" alt="image" src="https://github.com/user-attachments/assets/7d3c648e-00fe-4c54-878a-f1ba821ceda1" />
+
+
+
+<img width="537" height="42" alt="image" src="https://github.com/user-attachments/assets/dcc65f05-f729-4a3d-96e8-42c2d97193f6" />
+
+***Leyes de Habeas Data (Leyes 1266 de 2008 y 1581 de 2012)***
+Le dan a las personas el poder de controlar su información personal. Obligan a las empresas y al gobierno a pedir permiso antes de usar datos personales y permiten exigir que los borren o corrijan.
+
+
+***Ley de Delitos Informáticos (Ley 1273 de 2009):***
+Castiga con cárcel o multas a quienes hackeen sistemas, roben información, metan virus o estafen por internet.A Nivel InternacionalLey / EstándarExplicación SencillaRGPD (Unión Europea)La regla de privacidad más estricta del mundo.
+Protege los datos de las personas y sanciona duramente a las empresas que los usen mal.
+
+Convenio de BudapestUn acuerdo entre países para perseguir cibercriminales y colaborar entre policías cuando un delito ocurre en internet desde otro país.Normas ISO 27001Una especie de "manual de buenas prácticas" que siguen las empresas para demostrar que sus sistemas informáticos son seguros.
+
+<img width="717" height="400" alt="image" src="https://github.com/user-attachments/assets/d6c3e625-889d-447d-9b21-e4887343b833" />
+
+
+
+
+
+
+
+<img width="552" height="283" alt="image" src="https://github.com/user-attachments/assets/ddeaffd5-4d00-4995-9e3d-ddcb03abd652" />
+
+
+
+
+
+
 
