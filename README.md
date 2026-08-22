@@ -106,14 +106,29 @@ despues abrimos la terminal o consola de comando donde crearemos una carpeta: mk
 
 luego de eso tenemos que iniciar el repositorio local git init
 
-Entra a la carpeta de tu proyecto:
-cd ruta/de/tu/carpeta.
+Entra a la carpeta de tu proyecto:cd ruta/de/tu/carpeta.
+
+
 Ejecuta el comando de inicio: git init.
+
+
 Revisa que todo esté bien con: git status
 
 
+despues de eso creamos un archivo de prueba desde la terminal 
+codigo:"mkdir documentos
+echo "Código inicial del proyecto" > index.html
+mv index.html documentos/"
 
 
+Guardar los cambios localmente y subirlos a la nube (GitHub):
+codigo:git add .
+git commit -m "Estructura inicial del proyecto y archivos"
+git push -u origin main"
 
+El Usuario 2 abre la terminal en su equipo y clona el repositorio desde la nube:
+codigo: "git clone https://github.com/usuario1/proyecto-compartido.git"
 
+Accede a la carpeta clonada para empezar a trabajar con los archivos actualizados:
+codigo:"cd proyecto-compartido"
 
