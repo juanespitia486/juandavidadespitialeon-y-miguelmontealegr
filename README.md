@@ -1,5 +1,6 @@
 # juandavidadespitialeon-y-miguelmontealegr
 <img width="701" height="102" alt="image" src="https://github.com/user-attachments/assets/6b2bf0ec-2e9b-4a9f-9b26-6ac6f38a299b" />
+
 La ciberseguridad es el conjunto de medidas y prácticas que se usan para proteger computadores, celulares, redes e información de ataques, virus, robos de datos o accesos no autorizados.
 
  Características principales
@@ -40,4 +41,37 @@ Después pide el PIN o la firma para confirmar que uno es el dueño de la tarjet
 La información se manda al banco de forma cifrada (para que nadie la pueda leer fácil).
 
 El banco responde si acepta o rechaza la compra.
-<img width="562" height="56" alt="image" src="https://github.com/user-attachments/assets/a3d905fe-b1fe-4919-b1c0-856bb4f996ed" />
+
+<img width="542" height="358" alt="image" src="https://github.com/user-attachments/assets/87b50b7f-debd-4d2b-879b-47c38b6fd687" />
+
+<img width="569" height="65" alt="image" src="https://github.com/user-attachments/assets/6942e345-0c23-44d9-95c4-f0d5fa792582" />
+
+Cuando un computador de la empresa empieza a funcionar mal justo después de descargar un archivo X, hay que sospechar que puede ser un virus, un gusano o un troyano
+
+Desconectar el computador de la red
+Lo primero es quitarle el internet y desconectarlo de la red de la empresa para que no contagie a los demás equipos.
+Pasar un antivirus actualizado
+Ejecutar Windows Defender o un antivirus profesional y hacer un análisis completo del disco duro, especialmente del archivo X.
+Revisar el Administrador de tareas
+Ver qué programas están corriendo. Si hay procesos raros que consumen mucha memoria o CPU, puede ser malware.
+Analizar el comportamiento del archivo X para saber qué tipo de malware es:
+Si infecta otros archivos → probablemente es un virus.
+Si se replica solo por la red sin que nadie lo abra → probablemente es un gusano.
+Si abre puertas traseras o permite que alguien controle el computador desde afuera → probablemente es un troyano.
+
+Revisar los programas que inician con Windows
+Ver si el archivo X se agregó a la lista de inicio automático.
+Eliminar el malware
+Si el antivirus lo detecta, eliminarlo. Si no se puede quitar fácilmente, formatear el computador y restaurar desde una copia de seguridad limpia.
+Investigar de dónde vino el archivo X
+Para evitar que vuelva a pasar (por ejemplo, si alguien lo descargó de un correo o página no segura).
+
+<img width="573" height="53" alt="image" src="https://github.com/user-attachments/assets/a21283b5-d820-4f8c-b6e5-af3a6c45d25d" />
+
+Sombrero blanco → El “bueno”
+Sombrero gris → Está en el medio
+Sombrero negro → El “malo”
+
+
+<img width="768" height="420" alt="image" src="https://github.com/user-attachments/assets/7d3c648e-00fe-4c54-878a-f1ba821ceda1" />
+
