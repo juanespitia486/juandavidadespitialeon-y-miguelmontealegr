@@ -218,6 +218,8 @@ IoT en logística: trazabilidad inmutable de la cadena de suministro, prueba de 
 Nanosatélites: registro inmutable de telemetría y comandos (auditoría), gestión de identidades de satélites.
 IA y control aéreo / HMI: registro de decisiones críticas de IA y acciones de operadores (no repudiación), identidades descentralizadas.
 
+<img width="687" height="684" alt="image" src="https://github.com/user-attachments/assets/34b54189-75a2-4afd-a23e-ee013049795b" />
+
 RT 5:Aspecto,Recomendación
 Frecuencia,"Datos críticos (telemetría, comandos, logs de control): backup continuo o cada pocos minutos. Datos menos críticos: diario."
 Ubicaciones,3 copias mínimo → 2 en medios diferentes → 1 fuera de sitio (offsite / nube) → 1 offline / air-gapped.
@@ -228,5 +230,11 @@ Nanosatélites,Backup de telemetría en estaciones terrenas + nube; comandos cr�
 IoT logística,Edge computing con buffer local + sincronización segura a la nube; versionado de firmwares.
 IA / control aéreo,Snapshots de modelos de IA + datos de entrenamiento + logs de decisiones; redundancia geográfica.
 HMI,"Backup de configuraciones de usuario, perfiles y logs de auditoría; posibilidad de rollback rápido."
+<img width="768" height="684" alt="image" src="https://github.com/user-attachments/assets/342914df-44e0-4677-821b-39ff369f653a" />
+
+6
+<img width="1168" height="784" alt="image" src="https://github.com/user-attachments/assets/8ff3026d-364c-4d8b-8321-d304477c0132" />
+profe la otra parte no la puede hacer, ya q mi computador no prende 
+
 
 
